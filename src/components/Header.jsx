@@ -52,17 +52,6 @@ class Header extends Component {
                   Résumé
                 </NavLink>
               </li>
-              <li className="big-header">
-                <a
-                  className="link"
-                  title="Blog Time!"
-                  href="https://medium.com/@benjaminjehl"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Blog
-                </a>
-              </li>
             </div>
             <li onClick={this._openMenu} className="hamburger">
               <div />
@@ -90,15 +79,6 @@ class Header extends Component {
               <NavLink onClick={this._hideMenu} className="link" to="/resume">
                 <li>Résumé</li>
               </NavLink>
-              <a
-                onClick={this._hideMenu}
-                className="link"
-                href="https://medium.com/@benjaminjehl"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <li>Blog</li>
-              </a>
               <a
                 onClick={this._hideMenu}
                 className="link contact"
