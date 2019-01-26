@@ -1,0 +1,51 @@
+.hero-container {
+  margin: 0;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 0;
+  padding-top: 5.5rem;
+}
+
+.hero-container::after {
+  content: '';
+  background: url('/images/hive-hero.jpeg');
+  background-size: cover;
+  opacity: 0.4;
+  top: 4rem;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  height: 30rem;
+}
+
+.hero-title {
+  font-family: $monospace;
+  margin: 0;
+  padding-top: 10rem;
+  font-size: 4rem;
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .hero-title {
+    padding-top: 5rem;
+  }
+
+  .hero-container::after {
+    height: 20rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .hero-title {
+    padding-top: 15rem;
+  }
+
+  .hero-container::after {
+    height: 40rem;
+  }
+}

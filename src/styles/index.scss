@@ -1,8 +1,12 @@
+$monospace: 'Major Mono Display', monospace;
+
 @import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
 @import 'header';
+@import 'hero';
 
 html {
-  font-family: 'Major Mono Display', monospace;
+  font-family: $monospace;
 
   a {
     text-decoration: none;
