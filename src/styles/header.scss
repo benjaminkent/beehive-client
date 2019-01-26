@@ -92,6 +92,10 @@ nav.big-nav {
   }
 }
 
+.pop-out-items {
+  padding-left: 0.8rem;
+}
+
 .link:last-child {
   padding-right: 1rem;
 }
@@ -108,6 +112,7 @@ nav.big-nav {
 
 .logo {
   height: 3rem;
+  color: yellow;
 }
 
 @media (max-width: 699px) {

@@ -25,11 +25,7 @@ class Header extends Component {
           <nav className="big-nav">
             <li>
               <NavLink onClick={this._hideMenu} to="/">
-                <img
-                  className="logo"
-                  src="./images/new-years-logo.png"
-                  alt="logo"
-                />
+                <img className="logo" src="./images/bee-logo.png" alt="logo" />
               </NavLink>
             </li>
             <div className="big-header-links">
@@ -44,12 +40,12 @@ class Header extends Component {
                   title="Check out my Portfolio"
                   to="/portfolio"
                 >
-                  Portfolio
+                  About
                 </NavLink>
               </li>
               <li className="big-header">
                 <NavLink className="link" title="View my Resume" to="/resume">
-                  Résumé
+                  Meet the squad
                 </NavLink>
               </li>
             </div>
@@ -65,7 +61,7 @@ class Header extends Component {
             X
           </p>
           <nav>
-            <ul>
+            <ul className="pop-out-items">
               <NavLink onClick={this._hideMenu} className="link" exact to="/">
                 <li>Home</li>
               </NavLink>
@@ -74,25 +70,11 @@ class Header extends Component {
                 className="link"
                 to="/portfolio"
               >
-                <li>Portfolio</li>
+                <li>About</li>
               </NavLink>
               <NavLink onClick={this._hideMenu} className="link" to="/resume">
-                <li>Résumé</li>
+                <li>Meet the squad</li>
               </NavLink>
-              <a
-                onClick={this._hideMenu}
-                className="link contact"
-                href="tel://17276199736"
-              >
-                <li className="menu-contact">+1 (727) 619-9736</li>
-              </a>
-              <a
-                onClick={this._hideMenu}
-                className="link contact"
-                href="mailto:benjamin.k.jehl@gmail.com"
-              >
-                <li className="menu-contact">benjamin.k.jehl@gmail.com</li>
-              </a>
             </ul>
           </nav>
         </section>
