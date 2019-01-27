@@ -1,17 +1,17 @@
 [
   {
     "id": 1,
-    "name": "bee-yonce",
-    "image": "./images/bee-yonce.png"
+    "name": "bee ArthuR",
+    "image": "./images/bee-arthur.jpg"
   },
   {
     "id": 2,
-    "name": "the bee-tles",
-    "image": "./images/bee-tles.png"
+    "name": "bee-yonce",
+    "image": "./images/bee-yonce.jpg"
   },
   {
     "id": 3,
-    "name": "bee ArthuR",
-    "image": "./images/bee-arthur.jpg"
+    "name": "the bee-tles",
+    "image": "./images/bee-tles.png"
   }
 ]
