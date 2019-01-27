@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "bee-yonce",
+    "image": "./images/bee-yonce.png"
+  },
+  {
+    "id": 2,
+    "name": "the bee-tles",
+    "image": "./images/bee-tles.png"
+  },
+  {
+    "id": 3,
+    "name": "bee ArthuR",
+    "image": "./images/bee-arthur.jpg"
+  }
+]

@@ -1,9 +1,12 @@
 $monospace: 'Major Mono Display', monospace;
+$josefin: 'Josefin Sans', sans-serif;
 
 @import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
-@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
 @import 'header';
 @import 'hero';
+@import 'hotlist';
 
 html {
   font-family: $monospace;

@@ -5,7 +5,7 @@ class Hero extends Component {
     return (
       <>
         <section className="hero-container">
-          <h1 className="hero-title">The Bee Squad</h1>
+          <h1 className="hero-title">THE BEE SQUAD</h1>
         </section>
       </>
     )
